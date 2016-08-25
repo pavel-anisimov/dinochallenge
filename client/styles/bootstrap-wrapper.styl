@@ -1,0 +1,58 @@
+/**
+ * Bootstrap extension with page layout wrapper customization for a bootstrap framework
+ * @file bootstrap-wrapper.styl
+ * @author Pavel Anisimov <pavel.n.anisimov@gmail.com>
+ * @copyright 2011-2015 Pavel Anisimov
+ */
+
+/**
+ * Main wrapper styles
+ */
+#wrapper
+  -moz-transition all 0.5s ease
+  -o-transition all 0.5s ease
+  -webkit-transition all 0.5s ease
+  transition all 0.5s ease
+  padding-left $sidebar-width
+
+
+/**
+ * Sidebar styles
+ */
+#sidebar-wrapper
+  padding 2em
+  -moz-transition all 0.5s ease
+  -o-transition all 0.5s ease
+  -webkit-transition all 0.5s ease
+  background $green
+  height $full-height
+  left $sidebar-width
+  margin-left -($sidebar-width)
+  overflow-x hidden
+  overflow-y auto
+  transition all 0.5s ease
+  width $sidebar-width
+  z-index 1000
+  &::-webkit-scrollbar
+    display none
+
+  > .menu-logo
+    width 75%
+    margin-bottom 1em
+    opacity 0.5
+    filter unquote('alpha(opacity=50)')
+
+  > h1
+    margin-bottom 1em
+
+  > .msg
+    margin-bottom 2em
+
+/**
+ * Body container styles
+ */
+#page-content-wrapper
+  margin-right -($sidebar-width)
+  position absolute
+  width $conent-width
+

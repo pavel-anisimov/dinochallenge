@@ -1,0 +1,17 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory",
+    "file": "library/DinoDB.json"
+  },
+
+  "mongoDs": {
+    "host":     "${MONGODS_HOST}",
+    "port":     "${MONGODS_PORT}",
+    "database": "${MONGODS_DATABASE}",
+    "name":      "mongoDs",
+    "connector": "mongodb"
+  }
+}
+
+

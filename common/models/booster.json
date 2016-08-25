@@ -1,0 +1,33 @@
+{
+  "name": "Booster",
+  "plural": "Boosters",
+  "base": "PersistedModel",
+  "description": "Boosters model which belongs to dinosaurs",
+  "idInjection": true,
+  "mixins": {
+    "Timestamp": true
+  },
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  },
+
+  "validations": [],
+
+  "relations": {
+    "dinosaur": {
+      "type":       "belongsTo",
+      "model":      "Dinosaur",
+      "foreignKey": ""
+    }
+  },
+
+  "acls": [],
+
+  "methods": {}
+}

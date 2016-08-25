@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Tyrannosaurus Rex",
+    "clade": "Dinosauria",
+    "period": "Cretaceous",
+    "image": "tyrannosaurusrex.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Pteranodon",
+    "clade": "Pterosauria",
+    "period": "Cretaceous",
+    "image": "pteranodon.png"
+  },
+  {
+    "id": 3,
+    "name": "Velociraptor",
+    "clade": "Dinosauria",
+    "period": "Cretaceous",
+    "image": "velociraptor.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Barney",
+    "clade": "Dinosauria",
+    "period": "Cretaceous",
+    "image": "barney.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Lystrosaurus",
+    "clade": "Synapsida",
+    "period": "Triassic",
+    "image": "lystrosaurus.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Proterosuchus",
+    "clade": "Crocopoda",
+    "period": "Triassic",
+    "image": "chasmatosaurus.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Cynognathus",
+    "clade": "Synapsida",
+    "period": "Triassic",
+    "image": "cynognathus.jpg"
+  }
+]

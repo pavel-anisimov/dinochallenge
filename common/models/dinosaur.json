@@ -1,0 +1,39 @@
+{
+  "name": "Dinosaur",
+  "plural": "Dinosaurs",
+  "base": "PersistedModel",
+  "description": "Dinosaur model which defines name, clade, period and possible immage of a dinosaur",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "mixins": {
+    "Timestamp": true
+  },
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "clade": {
+      "type": "string"
+    },
+    "period": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  },
+
+  "validations": [],
+
+  "relations": {
+    "boosters": {
+      "type": "hasMany",
+      "model": "Booster",
+      "foreignKey": "dinoId"
+    }
+  },
+
+  "methods": {}
+}

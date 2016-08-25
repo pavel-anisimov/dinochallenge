@@ -1,0 +1,89 @@
+/**
+ * General main style file with different custom styles
+ * @file main.styl
+ * @author Pavel Anisimov <pavel.n.anisimov@gmail.com>
+ * @copyright 2011-2015 Pavel Anisimov
+ */
+
+html, body
+  font-family $mainFont
+  height $full-height
+  background-color $white
+
+/**
+ * Drop-down buttons on the left menu
+ */
+.btn-group.full-width
+  button
+    &:first-of-type
+      width 75%
+      border-bottom-left-radius 0.5em
+      border-top-left-radius 0.5em
+    &:last-of-type
+      width 25%
+      border-bottom-right-radius 0.5em
+      border-top-right-radius 0.5em
+
+/**
+ * Loading, Initian and Empty placeholder pages
+ */
+.placeholder
+  line-height 100vh
+  width 100%
+
+/**
+ * Dinosaur Card (type, name, image)
+ */
+.dino-card
+  background-color white
+  height 20em
+  border-radius 15px
+  -moz-box-sizing border-box
+  -webkit-box-sizing border-box
+  box-sizing border-box
+  -webkit-box-shadow 0px 5px 15px 1px rgba(0,0,0,0.75)
+  -moz-box-shadow 0px 5px 15px 1px rgba(0,0,0,0.75)
+  box-shadow 0px 5px 15px 1px rgba(0,0,0,0.75)
+  margin 1em 0.25em
+  position relative
+
+  > .count
+    background-color green
+    color black
+    font-size 1.5em
+    width 2em
+    height 2em
+    line-height 2em
+    text-align center
+    border-radius 1em
+    -webkit-box-shadow 0px 0.5px 4px 0.5px rgba(0,0,0,0.75)
+    -moz-box-shadow 0px 0.5px 4px 0.5px rgba(0,0,0,0.75)
+    box-shadow 0px 0.5px 4px 0.5px rgba(0,0,0,0.75)
+    position absolute
+    right -0.5em
+    top -0.5em
+    &:empty
+      display none
+
+  > .body-image
+    height 67%
+    width 100%
+    background-color white
+    background-size cover
+    background-repeat no-repeat
+    background-position center
+    border-top-right-radius inherit
+    border-top-left-radius inherit
+
+  > .bottom
+    height 33%
+    width 100%
+    background-color black
+    border-bottom-right-radius inherit
+    border-bottom-left-radius inherit
+    padding 1em
+    > div
+      white-space nowrap
+      overflow hidden
+      text-overflow ellipsis
+

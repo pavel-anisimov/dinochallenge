@@ -1,0 +1,9 @@
+{
+  "final:after": {
+    "errorhandler": {
+      "params": {
+        "includeStack": false
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "@john",
+    "dinoId": 1
+  },
+  {
+    "id": 2,
+    "name": "@jane",
+    "dinoId": 1
+  },
+  {
+    "id": 3,
+    "name": "@steve",
+    "dinoId": 1
+  },
+  {
+    "id": 4,
+    "name": "@linda",
+    "dinoId": 2
+  },
+  {
+    "id": 5,
+    "name": "@joe",
+    "dinoId": 2
+  },
+  {
+    "id": 6,
+    "name": "@maria",
+    "dinoId": 3
+  },
+  {
+    "id": 7,
+    "name": "@sean",
+    "dinoId": 4
+  },
+  {
+    "id": 8,
+    "name": "@heather",
+    "dinoId": 5
+  },
+  {
+    "id": 9,
+    "name": "@jacob",
+    "dinoId": 5
+  },
+  {
+    "id": 10,
+    "name": "@leo",
+    "dinoId": 5
+  },
+  {
+    "id": 11,
+    "name": "@martha",
+    "dinoId": 7
+  },
+  {
+    "id": 12,
+    "name": "@kyle",
+    "dinoId": 7
+  }
+]
