@@ -22,8 +22,8 @@ export function loadDinos(period) {
 
   // A URL dino.charboost.com does not work. I had to setup my own
   // server with similar mockup data.
-  //const url = `${BACKEND_URI}/dinosaurs/period/${period}`;
-  const url = `http://dino.chartboost.com/periods/${period}`;
+  const url = `${BACKEND_URI}/dinosaurs/period/${period}`;
+  //const url = `http://dino.chartboost.com/periods/${period}`;
 
   $ .get(url)
     .done( res => {
