@@ -5,6 +5,7 @@
  *
  * @description Entry point for the DinoApp application
  */
+"use strict";
 
 require('dotenv').config();
 

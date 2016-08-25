@@ -4,6 +4,7 @@
  * @copyright Pavel Anisimov 2016
  */
 
+
 import React from 'react';
 import { Router, Route, IndexRoute, hashHistory } from "react-router";
 import Layout        from "./pages/Layout";

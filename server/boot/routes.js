@@ -6,6 +6,7 @@
  * @module boot/Routs
  * @description Dino App static routs
  */
+"use strict";
 
 module.exports = app => {
 

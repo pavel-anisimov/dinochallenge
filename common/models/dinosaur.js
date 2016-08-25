@@ -6,6 +6,7 @@
  * @module models/Dinosaur
  * @description Dinosaur model additional custom API methods.
  */
+"use strict";
 
 module.exports = Dinosaur => {
 

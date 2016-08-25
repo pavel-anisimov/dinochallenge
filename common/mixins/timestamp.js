@@ -4,6 +4,7 @@
  * @author Pavel Anisimov <pavel.n.anisimov@gmail.com>
  * @copyright Pavel Anisimov 2016
  */
+"use strict";
 
 module.exports = (Model) => {
   // Model is the model class
