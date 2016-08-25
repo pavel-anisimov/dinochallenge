@@ -16,7 +16,7 @@ const boosters = require('../../library/data/boosters.json')
  */
 module.exports = app => {
 
-  const { mongoDs } = app.dataSources;
+  const mongoDs = app.dataSources.mongoDs;
 
   /**
    * Asynchronous call to create sample database
